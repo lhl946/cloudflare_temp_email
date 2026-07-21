@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "cloudflare-temp-email",
+  "name": "cloudflare-temp-email-2",
   "compatibility_date": "2026-05-09",
   "observability": {
     "enabled": true
