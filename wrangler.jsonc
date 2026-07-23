@@ -1,13 +1,21 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "cloudflare-temp-email",
+  "name": "cloudflare-temp-email-2",
   "compatibility_date": "2026-05-09",
+  "keep_vars": true,
   "observability": {
     "enabled": true
   },
   "assets": {
     "directory": "frontend"
   },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cloudflare-temp-email",
+      "database_id": "e56b5e8a-3f50-49f0-baed-3bf2800d53b3"
+    }
+  ],
   "compatibility_flags": [
     "nodejs_compat"
   ]
