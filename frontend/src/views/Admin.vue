@@ -58,7 +58,7 @@ const authFunc = async () => {
       })
     });
     adminAuth.value = tmpAdminAuth.value;
-    location.reload()
+    showAdminAuth.value = false; tmpAdminAuth.value = '';
   } catch (error) {
     message.error(error.message || "error");
     turnstileRef.value?.refresh?.();
